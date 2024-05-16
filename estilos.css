@@ -1,0 +1,17 @@
+body
+{
+    background-color:yellow;color:black;		
+	font-family:Verdana;
+    
+
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*Largura por coluna*/
+    grid-template-rows: 175px 175px; /*Altura de cada linha*/
+    gap: 30px; /* Distancia entre celulas */
+    text-align: center; /* Alinhamento do texto em toda as celulas */
+}
+
